@@ -13,9 +13,9 @@ import { FuseV1Options, FuseVersion } from "@electron/fuses";
 // import { globSync } from "node:fs";
 
 const STRINGS = {
-  author: "Revolt Platforms LTD",
-  name: "Stoat",
-  execName: "stoat-desktop",
+  author: "Chillboio Studios LLC and Revolt Platforms LTD",
+  name: "OTube (Based on Stoat Chat)",
+  execName: "otube-desktop",
   description: "Open source user-first chat platform.",
 };
 
@@ -169,8 +169,8 @@ const config: ForgeConfig = {
   publishers: [
     new PublisherGithub({
       repository: {
-        owner: "stoatchat",
-        name: "for-desktop",
+        owner: "Chillboio-Studios",
+        name: "otube-for-desktop",
       },
     }),
   ],
